@@ -12,9 +12,9 @@ setTimeout(() => {
 },[])
     return ( 
         <div className="not-found">
-            <h1>Oops!</h1>
-            <h2>That page can not be found</h2>
-            <p>Go back to the <Link href='/'><a >Homepage</a></Link></p>
+            <h1>!متاسفیم</h1>
+            <h2>.صفحه ای یافت نشد</h2>
+            <p>برگشت به  <Link href='/'><a >صفحه اصلی</a></Link></p>
         </div>
      );
 }

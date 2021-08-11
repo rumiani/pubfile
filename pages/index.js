@@ -1,23 +1,24 @@
+
 import Head from 'next/head'
-import Image from 'next/image'
-import Footer from '../comps/Footer'
-import Navbar from '../comps/Navbar'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+import Customers from '../comps/customers'
+import Services from '../comps/Services'
+import Video from '../comps/Video'
+import Navbar from '../comps/Navbar'
+import Footer from '../comps/Footer'
 export default function Home() {
   return (
     <>
     <Head>
-      <title>Rumi| Home</title>
+      <title>Rumi</title>
       <meta name='keywords' content='rumi'/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossOrigin="anonymous"/>
     </Head>
-    <div >
-      <h1 className={styles.title}>Homepage</h1>
-      <p className={styles.text}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde nihil molestiae praesentium, saepe perspiciatis voluptatibus provident alias voluptate magni illum quas cumque tempore, ullam vero laudantium! Ad amet ipsa sunt!</p>
-      <p  className={styles.text}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde nihil molestiae praesentium, saepe perspiciatis voluptatibus provident alias voluptate magni illum quas cumque tempore, ullam vero laudantium! Ad amet ipsa sunt!</p>
-      <Link href='/rumi'>
-      <a  className={styles.btn}>See Rumi Listing</a></Link>
-  </div>
+    <Navbar/>
+    <Services/>
+    <Video/>
+    <Customers/>
+    <Footer/>
     </>
   )
 }

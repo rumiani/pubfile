@@ -1,15 +1,23 @@
 import Image from 'next/image';
 import Link from 'next/link'
+import styles from '../styles/nav.module.css'
 const Navbar = () => {
     return ( 
-        <nav>
-            <div className="logo">
-            <Image src="/rumi.jpg" width={128} height={77} alt="" />
-
+        <nav className={styles.nav}>
+            <div className={styles.container}>
+                <div className={styles.logo}>
+                    <img src="/images/logo.png" alt="Lead Generation Company" />
+                    <h3>Lead Generation</h3>
+                    <h6>Company</h6>
+                </div>
+                <h2>!به راحتی خدمات مورد نیاز خودت رو پیدا کن</h2>   
+                <p>اینجا می توانید کمی در مورد خودتون صحبت و توضیح دهید که محصول شما چیست
+                    و چه کارهایی انجام می ده</p>
+                <div className={styles.btns}>
+                    <button>فرم تماس با ما</button>
+                    <button>مشاوره می خوام</button>
+                </div>
             </div>
-            <Link href='/' exact><a>Home</a></Link>
-            <Link href='/about'><a>About</a></Link>
-            <Link href='/rumi'><a>Rumi Listing</a></Link>
         </nav>
      );
 }

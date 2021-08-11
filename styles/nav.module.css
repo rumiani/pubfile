@@ -1,0 +1,70 @@
+.nav{
+    background-image: url('/big-pic.png');
+    width: 100vw;
+    height: 524px;
+    backdrop-filter: blur(20px);
+    color: white;
+    text-align: center;
+    
+  }
+.container{
+    height: 100%;
+    background-color: rgba(86, 76, 228, 0.698);
+    align-content: center;
+    padding-top: 150px;
+}
+.logo{
+    margin: 0 auto ;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+.btns{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.btns button:nth-child(1){
+    width: 130px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border:1px solid white;
+    color: white;
+
+}
+.btns button:nth-child(2){
+    width: 130px;
+    padding: 10px 20px;
+    background-color: rgb(53, 89, 251);
+    border:1px solid white;
+    color: white;
+}
+.btns button:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 2px black;
+    color: black;
+}
+@media(max-width: 600px) {
+    .nav{
+        height: 700px;
+    }
+    .nav h2, .nav p{
+        width: 90vw;
+        margin: 10px auto;
+    }
+    .btns{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+        padding: 0;
+        width: 80%;
+        font-size: smaller;
+    }
+    .btns button{
+        width: 20vw;
+        height: 10vh;
+        margin: 5px;
+        font-size: smaller;
+    }
+}
