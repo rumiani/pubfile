@@ -18,6 +18,15 @@
     width: 50%;
     text-align: center;
     position: relative;
+    font-weight: lighter;
+}
+.logo h3{
+    font-size: x-large;
+    font-weight: 200;
+}
+.logo h6{
+    font-weight: 200;
+    margin-top: -30px;
 }
 .btns{
     width: 50%;
