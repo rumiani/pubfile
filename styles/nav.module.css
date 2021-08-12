@@ -1,5 +1,5 @@
 .nav{
-    background-image: url('/big-pic.png');
+    background-image: url('/images/big-pic.png');
     width: 100vw;
     height: 524px;
     backdrop-filter: blur(20px);
@@ -58,6 +58,7 @@
 @media(max-width: 600px) {
     .nav{
         height: 100vh;
+        background-image: url('/images/big-pic-mobile.png');
     }
     .container{
         padding-top: 50px;
