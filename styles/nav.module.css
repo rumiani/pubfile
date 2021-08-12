@@ -57,7 +57,10 @@
 }
 @media(max-width: 600px) {
     .nav{
-        height: 700px;
+        height: 100vh;
+    }
+    .container{
+        padding-top: 50px;
     }
     .nav h2, .nav p{
         width: 90vw;
