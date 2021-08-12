@@ -1,5 +1,5 @@
 import styles from '../styles/services.module.css'
-import { servicesArr } from './data';
+import { servicesArr } from './Data';
 const Services = () => {
     return ( 
         <div className={styles.container}>

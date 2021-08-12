@@ -1,7 +1,7 @@
 
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Customers from '../comps/customers'
+import Customers from '../comps/Customers'
 import Services from '../comps/Services'
 import Video from '../comps/Video'
 import Navbar from '../comps/Navbar'

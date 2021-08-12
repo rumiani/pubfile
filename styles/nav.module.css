@@ -29,10 +29,11 @@
     margin-top: -30px;
 }
 .btns{
-    width: 50%;
+    width: 300px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    /* background-color: red; */
 }
 .btns button:nth-child(1){
     width: 130px;
@@ -67,12 +68,12 @@
         justify-content: space-between;
         margin: 20px auto;
         padding: 0;
-        width: 80%;
+        width: 250px;
         font-size: smaller;
     }
     .btns button{
-        width: 20vw;
-        height: 10vh;
+        width: 80px;
+        height: 40px;
         margin: 5px;
         font-size: smaller;
     }
