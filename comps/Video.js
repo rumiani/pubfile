@@ -20,8 +20,8 @@ const Video = () => {
             </video>
                 <button onClick={playVideo}>
                     {play?
-                        <i class="far fa-pause-circle"></i>:
-                        <i class="fas fa-play-circle"></i>
+                        <i className="far fa-pause-circle"></i>:
+                        <i className="fas fa-play-circle"></i>
                     }
                 </button>
         </div>
