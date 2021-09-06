@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className={styles.container}>
                 <div className={styles.logo}>
                     <img src="/images/logo.png" alt="Lead Generation Company" />
-                    <h3>Lead Generation</h3>
+                    <h3>Lead Tech</h3>
                     <h6>Company</h6>
                 </div>
                 <h2>!به راحتی خدمات مورد نیاز خودت رو پیدا کن</h2>   

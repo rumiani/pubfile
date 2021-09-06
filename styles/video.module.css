@@ -24,16 +24,17 @@
 }
 .container video{
     width: 100%;
-    background-image: url('/images/video.png');
+    background: url('/images/video.png') no-repeat;
     height: 80%;
     position: relative;
+    background-size: 100% 100%
 }
 .container .video button{
     background-color: unset;
     width: 20%;
     height: 20%;
     right: 40%;
-    top:30%;
+    top:40%;
     border: none;
     position:absolute;
 }
