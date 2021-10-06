@@ -1,7 +1,6 @@
 import styles from '../styles/customers.module.css'
 import { customersArr, iconsArr } from './Data';
 
-
 const Customers = () => {
     return ( 
         <div className={styles.container}>

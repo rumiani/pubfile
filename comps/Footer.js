@@ -13,7 +13,7 @@ const Footer = () => {
             </section>
             
             <p className={styles.copyright}>
-            Copyright rumi © 2021
+            Copyright Rumiani © 2021
             </p>
         </div>
      );

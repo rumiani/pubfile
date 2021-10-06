@@ -6,8 +6,8 @@ const Navbar = () => {
         <nav className={styles.nav}>
             <div className={styles.container}>
                 <div className={styles.logo}>
-                    <img src="/images/logo.png" alt="Lead Generation Company" />
-                    <h3>Lead Tech</h3>
+                    <img src="/images/logo.png" alt="Tech Lead" />
+                    <h3>Tech Lead</h3>
                     <h6>Company</h6>
                 </div>
                 <h2>!به راحتی خدمات مورد نیاز خودت رو پیدا کن</h2>   

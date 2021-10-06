@@ -1,11 +1,6 @@
-import Link from 'next/link';
-import { useState } from 'react';
 import styles from '../styles/video.module.css'
 
 const Video = () => {
-    const [play,setPlay]=useState(false)
-    const playVideo = ()=>setPlay(!play)
-
     return ( 
         <div className={styles.container}>
         <div className={styles.title}>
@@ -15,16 +10,7 @@ const Video = () => {
                 <li>این یک پاراگراف است. برای افزودن یا ویرایش متن خود اینجا را کلیک کنید. این متن باید برای گفتن یک داستان مورد استفاده قرار گیرد و کاربران اطلاعات .بیشتری بدست آورند</li>
             </ul>
         </div>
-        <div className={styles.video}>
-            <video >
-            </video>
-                <button onClick={playVideo}>
-                    {play?
-                        <i className="far fa-pause-circle"></i>:
-                        <i className="fas fa-play-circle"></i>
-                    }
-                </button>
-        </div>
+            <video className={styles.video} src="./video.mp4" controls></video>
         </div>
      );
 }
