@@ -76,6 +76,7 @@
         width: 100%;
         margin: 0 auto;
         display: flex;
+        justify-content: space-around;
     }
     .btns button:nth-child(1),
     .btns button:nth-child(2){

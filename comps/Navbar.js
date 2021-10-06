@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div className={styles.logo}>
                     <img src="/images/logo.png" alt="Tech Lead" />
                     <h3>Tech Lead</h3>
-                    <h6>Company</h6>
+                    <h4>Company</h4>
                 </div>
                 <h2>!به راحتی خدمات مورد نیاز خودت رو پیدا کن</h2>   
                 <p>اینجا می توانید کمی در مورد خودتون صحبت و توضیح دهید که محصول شما چیست
