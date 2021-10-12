@@ -6,6 +6,7 @@ import Services from '../comps/Services'
 import Video from '../comps/Video'
 import Navbar from '../comps/Navbar'
 import Footer from '../comps/Footer'
+
 export default function Home() {
   return (
     <>

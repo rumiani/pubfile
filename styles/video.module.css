@@ -32,6 +32,7 @@
 @media(max-width: 760px) {
     .container{
         margin-top: 50px;
+        
     }
     .title{
         width: 100%;
@@ -40,10 +41,11 @@
         color: white;
     }
     .video{
-        width: 100vw;
+        width: 100%;
         height: 80vw;
         margin:0 auto;
         position: relative;
+
     }
     .container .video button{
         width: 20vw;
