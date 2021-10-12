@@ -74,12 +74,12 @@
     .services{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 0;
+        /* justify-content: space-between; */
+        /* padding: 0; */
         font-size: 12px;
     }
     .service{
-        width: 80vw;
+        /* width: 80vw; */
         height: 300px;
         position: relative;
         margin: 20% auto;
@@ -94,7 +94,7 @@
         font-size: smaller;
         width: 60vw;
         margin-top:  -50px;
-        left: 15vw;
+        left: 20vw;
         border-radius: 10px;
         position: absolute;
         box-shadow: 5px 5px 1px rgba(128, 128, 128, 0.116);
